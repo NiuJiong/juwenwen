@@ -1,0 +1,104 @@
+.main{
+	color: #999999;
+	font-family: "PingFang Medium";
+}
+.main header{
+	border-bottom: 1px solid #E6E6E6;
+	position: relative;
+	padding: 0.3rem 0;
+}
+.main header input{
+	border: none;
+	border-radius:20px;
+	text-indent: 2rem;
+	width: 94%;
+	padding: 0.3rem 0;
+	margin: 0.1rem 0;
+	color: #999999;
+	font-size: 0.65rem;
+	background: url(../images/sousuo02.png) no-repeat 5% center;
+	background-size:4% auto;
+	background-color: #F0F0F0;
+}
+.main header input::-moz-placeholder{
+	color: #999999;
+}
+.main header input::-ms-input-placeholder{
+	color: #999999;
+}
+.main header input::-webkit-input-placeholder{
+	color: #999999;
+}
+.main  .two{
+	padding:0.2rem 0.5rem;
+	background: white;
+	/*margin-top: 0.5rem;*/
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+.main  .two .left{
+	float: left;
+	width:33%;
+}
+.main  .two .right{
+	float: left;
+	width: 60.9%;
+	margin-left:5%;
+	padding-bottom: 0.6rem;
+	border-bottom: 1px solid #F8F8F8;
+}
+.main  .two .right h3{
+	margin: 0;
+	padding: 0;
+	font-size: 0.71rem;
+	color: #3D3D3D;
+	margin-top:0.1rem;
+	margin-bottom:0.4rem;
+	font-weight: 500;
+	color: #333333;
+	font-family: "PingFang Medium";
+}
+
+.main  .two .right p{
+	text-align: start;
+	margin: 0;
+	padding: 0;
+	font-size: 0.56rem;
+	margin-top:0.4rem;
+	color: #999999;
+	font-family: "PingFang Medium";
+}
+.main  .two .right p:nth-child(3) span:nth-child(1){
+	display: inline-block;
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(2){
+	font-size: 0.55rem;
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(3){
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(4){
+	margin-right:0.15rem;
+}
+
+.main .time p{
+	margin: 0;
+	padding: 0.3rem 0;
+	padding-left: 1.5rem;
+	font-size: 0.6rem;
+	background:url(../images/zhongbiao.png) no-repeat 0.6rem center;
+	background-size:0.6rem;
+}
+.main .two li{
+	margin-top: 0.4rem;
+}
+
+
+

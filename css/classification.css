@@ -1,0 +1,106 @@
+body,html{
+	/*width: 100%;
+	height: 100%;*/
+}
+.main{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.main ul,.main ul li{
+	margin: 0;
+	padding: 0;
+}
+.main .leftheight{
+	float: left;
+	width: 25%;
+}
+.main .leftheight li{
+	text-align: center;
+	color: #FFB658;
+	font-size: 0.6rem;
+	padding: 2.5rem 0 1rem 0;
+	vertical-align:1rem;
+	color: #666666;
+	font-family: 'PingFang Medium';
+}
+.main .leftheight li:nth-child(1){
+	background: url(../images/keting.png) no-repeat center 0.8rem;
+	background-size:1.7rem;
+}
+.main .leftheight li:nth-child(2){
+	background: url(../images/shufang.png) no-repeat center 0.8rem;
+	background-size:1.7rem;
+}
+.main .leftheight li:nth-child(3){
+	background: url(../images/canting.png) no-repeat center 0.8rem;
+	background-size:1.7rem;
+}
+.main .leftheight li:nth-child(4){
+	background: url(../images/woshi.png) no-repeat center 0.8rem;
+	background-size:1.7rem;
+}
+.main .leftheight li.active{
+	background-color:white;
+	color: #FFAC40;
+}
+.main .rightheight{
+	float: right;
+	background: white;
+	width: 75%;
+}
+.main .rightheight li{
+	float: left;
+	width: 33.33333333%;
+	text-align: center;
+	font-size: 0.5rem;
+}
+.main .rightheight li a{
+	display: block;
+	height: 100%;
+	padding: 4rem 0 0.5rem 0;
+	color: #666666;
+	font-size: 0.6rem;
+	font-family: 'PingFang Medium';
+}
+.main .rightheight li:nth-child(1){
+	background:url(../images/shafa.png) no-repeat center 1.7rem;
+	background-size:2rem;
+}
+.main .rightheight li:nth-child(2){
+	background:url(../images/dianshigui.png) no-repeat center 1.7rem;
+	background-size:2rem;
+}
+.main .rightheight li:nth-child(3){
+	background:url(../images/chajidian.png) no-repeat center 1.7rem;
+	background-size:2rem;
+}
+.main .rightheight li:nth-child(4){
+	background:url(../images/jiugui.png) no-repeat center 1.4rem;
+	background-size:1.75rem;
+}
+.main .rightheight li:nth-child(5){
+	background:url(../images/xiegui.png) no-repeat center 1.4rem;
+	background-size:2.4rem;
+}
+.main .rightheight li:nth-child(6){
+	background:url(../images/yizi.png) no-repeat center 1.3rem;
+	background-size:1.8rem;
+}
+.main .rightheight li:nth-child(7){
+	background:url(../images/pignfeng.png) no-repeat center 1.7rem;
+	background-size:2.2rem;
+}
+.main .rightheight li:nth-child(8){
+	background:url(../images/ketingtaozhuang.png) no-repeat center 1.7rem;
+	background-size:2.1rem;
+}
+.main .rightheight li:nth-child(9){
+	background:url(../images/jianting.png) no-repeat center 1.5rem;
+	background-size:1.8rem;
+}
+.main  .rightheight{
+	display: none;
+}
+.main  .rightheight.active{
+	display: block;
+}

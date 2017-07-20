@@ -1,0 +1,130 @@
+.main header{
+	font-size: 0.76rem;
+	color: #333333;
+}
+.main{
+	font-family: "PingFang Medium";
+}
+.main .head_portrait{
+	margin-top: 0.3rem;
+	background: white;
+}
+.main .head_portrait .amend{
+	padding: 0.9rem 0.5rem;
+	padding-left: 4rem;
+	font-size: 0.71rem;
+	color: #333333;
+	font-family: "PingFang Medium";
+	background:url(../images/toubupng.png) no-repeat,url(../images/youjiantou02.png) no-repeat;
+	background-position:0.6rem center,90% center;
+	background-size:2rem,0.5rem;
+}
+.main .head_portrait  .profession{
+	margin-top: 0.5rem;
+	
+}
+.main .head_portrait  .profession div{
+	font-size: 0.65rem;
+	padding: 0 0.5rem;
+	font-family: "PingFang Medium";
+}
+.main .head_portrait  .profession div:nth-child(2){
+	margin-top: 0.3rem;
+	padding-bottom: 0.7rem;
+}
+.main .head_portrait  .profession div:nth-child(2) button{
+	border:1px solid #D7D7D7;
+	background: white;
+	color: #666666;
+	margin-right: 0.5rem;
+	padding: 0.2rem 0.8rem;
+	border-radius:15px;
+	outline: none;
+	font-family: "PingFang Medium";
+}
+.main .head_portrait  .profession div:nth-child(2) button.active{
+	background: #FFAC40;
+	color: white;
+	border: none;
+}
+.main .xiugai{
+	background: white;
+	margin-top: 0.5rem;
+	padding: 0 0.5rem;
+}
+.main .xiugai div{
+	
+	color: #6D6D6D;
+	font-size: 0.7rem;
+	padding: 0.5rem 0;
+}
+.main .xiugai div label{
+	display: inline-block;
+	width:28%;
+	font-size: 0.65rem;
+	font-family: "PingFang Medium";
+}
+.main .xiugai div input{
+	font-size: 0.65rem;
+	color: #333333;
+	border: none;
+	font-family: "PingFang Medium";
+}
+.main .xiugai div input::-ms-input-placeholder{
+	color: #333333;
+}
+.main .xiugai div input::-moz-placeholder{
+	color: #333333;
+}
+.main .xiugai div input::-webkit-input-placeholder{
+	color: #333333;
+}
+.main .xiugai div:nth-child(4) input::-moz-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+.main .xiugai div:nth-child(4) input::-ms-input-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+.main .xiugai div:nth-child(4) input::-webkit-input-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+.main .xiugai div:nth-child(5) input::-moz-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+.main .xiugai div:nth-child(5) input::-ms-input-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+.main .xiugai div:nth-child(5) input::-webkit-input-placeholder{
+	font-family: "PingFang Medium";
+	color: #999999;
+}
+
+.border_bottom{
+	border-bottom: 1px solid #F4F4F4;	
+	font-family: "PingFang Medium";
+}
+.main .xiugai div:nth-child(3){
+	background: url(../images/wodejiantou.png) no-repeat 95% center;
+	background-size:0.6rem;
+	font-family: "PingFang Medium";
+}
+
+
+
+
+
+
+
+
+.main .tishi{
+	text-align: center;
+	font-size: 0.6rem;
+	margin-top: 1rem;
+	color: #6A6A6A;
+	font-family: "PingFang Medium";
+}

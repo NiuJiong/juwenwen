@@ -1,0 +1,66 @@
+@font-face {
+	font-family:"PingFang Medium";
+	src:url(../font/PingFang Medium.ttf);
+}
+@font-face {
+	font-family:"PingFang Bold";
+	src:url(../font/PingFang Bold.ttf);
+}
+
+.main header{
+	color: black;
+	font-size: 0.73rem;
+}
+.main ul{
+	background: white;
+}
+.main ul li{
+	
+}
+.main .left{
+	float: left;
+	width: 2rem;
+	padding: 0.5rem 0;
+	padding-left: 0.5rem;
+}
+.main .left img{
+	margin-top: 0.3rem;
+}
+.main .right{
+	float: right;
+	width: 80%;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #F8F8F8;
+	font-family: "PingFang Medium";
+}
+.main .right span:nth-child(1){
+	display: inline-block;
+	width: 75%;
+	font-size: 0.68rem;
+	margin-top: 0.6rem;
+	color: #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+/*	font-family: "PingFang Bold";*/
+}
+.main .right span:nth-child(2){
+	display: inline-block;
+	width: 23%;
+	font-size: 0.55rem;
+	color: #999999;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 0.6rem;
+}
+.main .right button{
+	border: 1px solid #FFC170;
+	background: none;
+	color: #FFAC40;
+	padding: 0.19rem 0.5rem;
+	border-radius:0.5rem;
+	outline: none;
+	font-size: 0.4rem;
+	margin-top: 0.3rem;
+}

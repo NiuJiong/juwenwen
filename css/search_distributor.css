@@ -1,0 +1,102 @@
+
+nav ul li:nth-child(2){
+	font-size: 0.75rem;
+	color:#FFFFFF;
+	
+}
+.main header{
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	padding: 0.4rem 0;
+	font-size: 0.75rem;
+	font-family: "PingFang Medium";
+}
+.main header img{
+	margin-top: -3px;
+}
+.main ul{
+	margin-top: 0.5rem;
+	background: white;
+}
+.main ul li{
+
+}
+.main .left{
+	float: left;
+	width: 2rem;
+	/*padding: 0.5rem 0;*/
+	padding-left: 0.5rem;
+}
+.main .left img{
+	margin-top: 28%;
+	
+}
+.main .right{
+	float: right;
+	width: 80%;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #F8F8F8;
+	font-family: "PingFang Medium";
+}
+.main .right span:nth-child(1){
+	display:block;
+	width:95%;
+	font-size: 0.65rem;
+	margin-top: 0.5rem;
+	color: #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-family: "PingFang Medium";
+}
+.main .right button{
+	display: block;
+	border: 1px solid #FFC170;
+	background: none;
+	color: #FFAC40;
+	padding: 0.2rem 0.5rem;
+	border-radius:0.5rem;
+	outline: none;
+	font-size: 0.4rem;
+	font-family: "PingFang Medium";
+	margin-top: 0.3rem;
+}
+
+.main .region{
+	margin: 0;
+	padding: 0.17rem 0;
+	background: white;
+	vertical-align: middle;
+}
+.main .region li{
+	float: left;
+	width: 33.333333333%;
+	vertical-align: middle;
+}
+.main .region li:nth-child(1) span{
+	display: block;
+	padding: 0.3rem 0;
+	padding-left: 1.5rem;
+	background: url(../images/diqu.png) no-repeat 0.7rem center;
+	background-size:12.5% auto;
+	font-size: 0.7rem;
+	vertical-align: middle;
+	font-family: "PingFang Medium";
+}
+.main .region li:nth-child(2) span{
+	display: block;
+	padding: 0.3rem 0;
+	font-size: 0.656rem;
+	text-align: center;
+	color: #999999;
+	vertical-align: middle;
+	font-family: "PingFang Medium";
+}
+.main .region li:nth-child(3){
+	width: 2.8%;
+	padding: 0.2rem 0;
+	float: right;
+	padding-right: 0.8rem;
+	vertical-align: middle;
+}

@@ -1,0 +1,166 @@
+
+
+
+
+
+
+.banner{
+	margin: 0;
+	margin-top: 1.94rem;
+	position: relative;
+	z-index: 88888;
+	padding: 0;
+}
+.banner img{
+	margin-top: 1.92rem;
+	display: block;
+}
+.banner .search{
+	position: absolute;
+	left:0.6rem;
+	right:0.6rem;
+	top:0.5rem;
+	opacity: 0.8;
+	background: #EDEDED;
+	border-radius:15px;
+	
+}
+.banner .search label{
+	width: 20%;
+	padding:0 0.8rem;
+	vertical-align: 25%;	
+	font-size: 0.6rem;
+	background: url(../images/sousuoxiajiantou.png) no-repeat 90% center,url(../images/shutiao.png) no-repeat 100% center;
+	background-size:8% auto,2% 70%;
+	color: #333333;
+	font-family: "PingFang Medium";
+}
+.banner .search label span{
+	color: #ADAAA7;
+	font-size: 0.5rem;
+	margin-left: 0.3rem;
+}
+.banner .search input{
+	padding-left: 0.2rem;
+	width: 67%;
+	background: #EDEDED;
+	border: none;
+	font-size: 0.62rem;
+	color: #ADAAA7;
+	vertical-align: 30%;
+	color: #3A3A3A;
+	font-family: "PingFang Medium";
+}
+.banner .search input::-moz-placeholder{
+	color: #333333;
+}
+.banner .search input::-ms-input-placeholder{
+	color: #333333;
+}
+.banner .search input::-webkit-input-placeholder{
+	color: #333333;
+}
+
+
+
+
+.classify{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.classify ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.classify ul li a{
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	font-size: 0.6rem;
+	letter-spacing: 0.05rem;
+	display: block;
+	font-family: "PingFang Medium";
+	padding: 2rem 0 0.5rem 0;
+}
+.classify ul li:nth-child(1) a{
+	background: url(../images/keting.png) no-repeat center 0.5rem;
+	background-size:43%;
+}
+.classify ul li:nth-child(2) a{
+	background: url(../images/shufang.png) no-repeat center 0.5rem;
+	background-size:43%;
+}
+.classify ul li:nth-child(3) a{
+	background: url(../images/canting.png) no-repeat center 0.5rem;
+	background-size:45%;
+}
+.classify ul li:nth-child(4) a{
+	background: url(../images/woshi.png) no-repeat center 0.5rem;
+	background-size:43%;
+}
+
+hr{
+	background: #F0F0F0;
+	height: 0.5rem;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.product{
+	padding-bottom:2.5rem;
+	height: 10%;
+	background: white;
+}
+.product .header{
+	padding: 0.3rem 0.7rem;
+	margin-bottom: 0.3rem;
+}
+.product .header span{
+	display: inline-block;
+	color: #333333;
+	font-size: 0.6rem;
+	padding:0.1rem 0 0.1rem 0.25rem;
+	background: url(../images/zuixin.png) no-repeat 0 center;
+	background-size:4.5% auto;
+	float: left;
+	font-family: "PingFang Medium";
+}
+.product .header a{
+	float: right;
+	font-size: 0.55rem;
+	margin-top: 0.2rem;
+	color: #999999;
+	font-family: "PingFang Medium";
+	padding-right: 0.55rem;
+	background: url(../images/youjiantou.png) no-repeat 100% center;
+	background-size:20% auto;
+}
+.product ul{
+	padding-top: 0.25rem;
+}
+.product ul li{
+		float: left;
+		width: 27.5%;
+		margin-left: 0.7rem;
+		padding-bottom: 0.5rem;
+		font-family: "PingFang Medium";
+}
+.product ul li img{
+	margin: 0;
+	padding: 0;
+}
+.product ul li a{
+	display: block;
+	color: #333333;
+}
+.product ul li p{
+	padding: 0;
+	margin: 0;
+	margin-top: -3px;
+	color: #333333;
+	font-size:0.6rem;
+}

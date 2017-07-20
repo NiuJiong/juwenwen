@@ -1,0 +1,103 @@
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+.main header{
+	font-size: 0.76rem;
+	color: #333333;
+}
+.main  .two{
+	padding: 0.36rem;
+	background: white;
+	/*margin-top: 0.5rem;*/
+}
+.main .two li{
+	margin-top: 0.2rem;
+}
+.main  .two .left{
+	float: left;
+	width:30%;
+}
+.main  .two .right{
+	float: left;
+	width: 64.9%;
+	margin-left:5%;
+	padding-bottom: 0.6rem;
+	font-family: "PingFang Medium";
+}
+.main  .two .right h3{
+	margin: 0;
+	padding: 0;
+	font-size: 0.73rem;
+	color: #333333;
+	margin-top:0.1rem;
+	margin-bottom:0.4rem;
+	font-weight: 500;
+}
+.main  .two .right p{
+	text-align: start;
+	margin: 0;
+	padding:0;
+	font-size: 0.52rem;
+	margin-top:0.4rem;
+	color: #999999;
+}
+.main  .two .right p:nth-child(3) span:nth-child(1){
+	display: inline-block;
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(2){
+	font-size: 0.55rem;
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(3){
+	margin-right:0.15rem;
+}
+.main  .two .right p:nth-child(3) span:nth-child(4){
+	margin-right:0.15rem;
+}
+
+
+
+
+.main  .two .right p:nth-child(3) span{
+	display: inline-block;
+}
+.main  .two .right p:nth-child(3) span:not(:first-child){
+	
+}
+.main .time{
+	
+}
+.main .time p{
+	font-family: "PingFang Medium";
+	margin: 0;
+	padding: 0.35rem 0;
+	padding-left: 1.5rem;
+	font-size: 0.55rem;
+	background:url(../images/zhongbiao.png) no-repeat 0.6rem center;
+	background-size:0.6rem;
+	color: black;
+	letter-spacing: -1px;
+	background-color: #F0F0F0;
+}
+.main .two li{
+	margin-top:0.25rem;
+}
+.ttop{
+	position: fixed;
+	right:0.5rem;
+	bottom: 2rem;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius:2px;
+	background: url(../images/top.png) no-repeat center center;
+	background-size:60% auto;
+	background-color: rgba(255,172,64,0.6);
+}
+
+
+

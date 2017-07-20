@@ -1,0 +1,114 @@
+body{
+	background: #F0F0F0;
+}
+.main{
+	margin: 0;
+	padding: 0;
+	margin-top: 1.92rem;
+	margin-bottom: 2rem;
+}
+.main .banner{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	
+}
+.main .banner img:nth-child(1){
+	display: block;
+}
+.main .banner .aide{
+	position: absolute;
+	left: 1rem;
+	top: 0;
+	font-size: 0.8rem;
+	
+	letter-spacing: 0.1rem;
+	z-index: 8888;
+	color: #FFFFFF;
+	font-family: "PingFang Medium";
+}
+.main .banner span{
+	position: absolute;
+	top:2.5rem;
+	left: 1rem;
+	font-size: 0.65rem;	
+	color: #FFEAD6;
+	font-family: "PingFang Medium";
+}
+.main .banner p:nth-child(4){
+	position: absolute;
+	right: 2rem;
+	width: 2rem;
+	top: 0.2rem;
+}
+.main .banner p:nth-child(5){
+	position: absolute;
+	top: 15%;
+	right: 1rem;
+	width: 3%;
+}
+.main  ul{
+	margin-top: 0.5rem;
+	background: white;
+}
+.main ul li{
+	padding-left:2rem;
+}
+.main ul li:nth-child(1){
+	background: url(../images/liulanzuji.png) no-repeat 0.8rem center;
+	background-size:0.7rem;
+}
+
+.main ul li:nth-child(2){
+	background: url(../images/wodezixun.png) no-repeat 0.8rem 60%;
+	background-size:0.7rem;
+}
+.main ul li:nth-child(3){
+	background: url(../images/mingpian.png) no-repeat 0.8rem center;
+	background-size:0.75rem;
+}
+.main ul li:nth-child(4){
+	background: url(../images/kanguowode.png) no-repeat 0.8rem center;
+	background-size:0.9rem;
+}
+.main ul li:nth-child(5){
+	background: url(../images/caigoushang.png) no-repeat 0.8rem center;
+	background-size:0.75rem;
+}
+.main ul li:nth-child(6){
+	background: url(../images/chanpinshoucang.png) no-repeat 0.8rem center;
+	background-size:0.75rem;
+}
+.main ul li a{
+	display:block;
+	padding:0.6rem 0;
+	font-size: 0.7rem;
+	letter-spacing: 0.01rem;
+	color: #333333;
+	font-family: "PingFang Medium";
+	
+	background: url(../images/wodejiantou.png) no-repeat 95% center;
+	background-size:0.45rem;
+}
+.main ul li:nth-child(1) a,.main ul li:nth-child(3) a,.main ul li:nth-child(4) a{
+	border-bottom:1px solid #F4F4F4;
+}
+
+
+.main button{
+	margin-top: 0.5rem;
+	width: 100%;
+	border: none;
+	outline: none;
+	
+	text-align: start;
+	padding:0.5rem 0;
+	font-size: 0.7rem;
+	color: #333333;
+	font-family: "PingFang Medium";
+	
+	padding-left: 2rem;
+	background: url(../images/tuichu.png) no-repeat 0.8rem center,url(../images/wodejiantou.png) no-repeat 95% center;
+	background-size:0.75rem auto,0.45rem auto;
+	background-color: white;
+}

@@ -5,6 +5,10 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     background: none;
     text-decoration: none;
 }
+.main header{
+	color: black;
+	font-size: 0.75rem;
+}
 p{
 	text-align: center;
 	font-size: 0.6rem;
@@ -60,11 +64,11 @@ p{
 .main .tab .two .right h3{
 	margin: 0;
 	padding: 0;
-	font-size: 0.71rem;
-	color: #333333;
+	font-size: 0.72rem;
+	color: black;
 	margin-top:0.1rem;
 	margin-bottom:0.4rem;
-	font-weight: 500;
+	font-weight:500;
 	font-family: "PingFang Medium";
 }
 .main .tab .two .right p{

@@ -7,7 +7,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 }
 .main header{
 	font-size: 0.76rem;
-	color: #333333;
+	color: black;
 }
 .main  .two{
 	padding: 0.36rem;
@@ -32,7 +32,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 	margin: 0;
 	padding: 0;
 	font-size: 0.73rem;
-	color: #333333;
+	color: black;
 	margin-top:0.1rem;
 	margin-bottom:0.4rem;
 	font-weight: 500;

@@ -7,7 +7,7 @@ nav li:nth-child(2) h4{
 }
 .main header{
 	font-family: "PingFang Medium";
-	color: #333333;
+	color: black;
 	font-size: 0.75rem;
 	margin: 0;
 	padding: 0.4rem 0;
@@ -32,7 +32,7 @@ nav li:nth-child(2) h4{
 
 .main .consult p{
 	font-size: 0.62rem;
-	color: #333333;
+	color: black;
 	margin: 0;
 	padding:0;
 	margin: 0.25rem;

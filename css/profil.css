@@ -1,6 +1,6 @@
 .main header{
 	font-size: 0.76rem;
-	color: #333333;
+	color: black;
 }
 .main{
 	font-family: "PingFang Medium";
@@ -12,8 +12,8 @@
 .main .head_portrait .amend{
 	padding: 0.9rem 0.5rem;
 	padding-left: 4rem;
-	font-size: 0.71rem;
-	color: #333333;
+	font-size: 0.72rem;
+	color: black;
 	font-family: "PingFang Medium";
 	background:url(../images/toubupng.png) no-repeat,url(../images/youjiantou02.png) no-repeat;
 	background-position:0.6rem center,90% center;
@@ -27,6 +27,7 @@
 	font-size: 0.65rem;
 	padding: 0 0.5rem;
 	font-family: "PingFang Medium";
+	color: #111111;
 }
 .main .head_portrait  .profession div:nth-child(2){
 	margin-top: 0.3rem;
@@ -65,19 +66,22 @@
 	font-family: "PingFang Medium";
 }
 .main .xiugai div input{
-	font-size: 0.65rem;
-	color: #333333;
-	border: none;
 	font-family: "PingFang Medium";
+	font-size: 0.66rem;
+	color: black;
+	border: none;
 }
 .main .xiugai div input::-ms-input-placeholder{
-	color: #333333;
+	color: black;
+	font-family: "PingFang Medium";
 }
 .main .xiugai div input::-moz-placeholder{
-	color: #333333;
+	color: black;
+	font-family: "PingFang Medium";
 }
 .main .xiugai div input::-webkit-input-placeholder{
-	color: #333333;
+	color: black;
+	font-family: "PingFang Medium";
 }
 .main .xiugai div:nth-child(4) input::-moz-placeholder{
 	font-family: "PingFang Medium";

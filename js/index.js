@@ -107,5 +107,11 @@ $(function() {
 		$(".main .rightheight:eq(" + index + ")").addClass("active");
 
 	});
+	
+	
+	
+	$(".ttop").click(function(){
+		$(window).scrollTop(0);
+	});
 
 });

@@ -1,9 +1,9 @@
 @font-face {
-	font-family:"PingFang Medium";
+	font-family:PingFang Medium;
 	src:url("../font/PingFang Medium.ttf");
 }
 @font-face {
-	font-family:"PingFang Bold";
+	font-family:PingFang Bold;
 	src:url("../font/PingFang Bold.ttf");
 	font-weight: bold;
 }
@@ -150,6 +150,7 @@ footer ul li:nth-child(2) a.active{
 footer ul li:nth-child(3) a{
 	background: url(../images/wode.png) no-repeat center 0.1rem;
 	background-size:16%;
+	font-size: 0.5rem;
 }
 footer ul li:nth-child(3) a.active{
 	background: url(../images/wodehuang.png) no-repeat center 0.1rem;

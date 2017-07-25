@@ -121,11 +121,11 @@ hr{
 }
 .product .header span{
 	display: inline-block;
-	color: #333333;
+	color: #444444;
 	font-size: 0.6rem;
 	padding:0.1rem 0 0.1rem 0.25rem;
 	background: url(../images/zuixin.png) no-repeat 0 center;
-	background-size:4.5% auto;
+	background-size:4.8% 0.62rem;
 	float: left;
 	font-family: "PingFang Medium";
 }
@@ -133,7 +133,7 @@ hr{
 	float: right;
 	font-size: 0.55rem;
 	margin-top: 0.2rem;
-	color: #999999;
+	color: #AAAAAA;
 	font-family: "PingFang Medium";
 	padding-right: 0.55rem;
 	background: url(../images/youjiantou.png) no-repeat 100% center;
@@ -155,12 +155,11 @@ hr{
 }
 .product ul li a{
 	display: block;
-	color: #333333;
 }
 .product ul li p{
 	padding: 0;
 	margin: 0;
 	margin-top: -3px;
-	color: #333333;
+	color: #111111;
 	font-size:0.6rem;
 }

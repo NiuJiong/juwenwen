@@ -68,11 +68,11 @@ body,html{
 }
 .main .rightheight li:nth-child(2){
 	background:url(../images/dianshigui.png) no-repeat center 1.7rem;
-	background-size:2rem;
+	background-size:2.3rem;
 }
 .main .rightheight li:nth-child(3){
 	background:url(../images/chajidian.png) no-repeat center 1.7rem;
-	background-size:2rem;
+	background-size:2.3rem;
 }
 .main .rightheight li:nth-child(4){
 	background:url(../images/jiugui.png) no-repeat center 1.4rem;

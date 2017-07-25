@@ -47,7 +47,7 @@ p{
 .main .banner p{
 	font-size: 0.65rem;
 	margin: 0;
-	padding:0.3rem 0.5rem 0.5rem 0.5rem;
+	padding:0.1rem 0.5rem 0.5rem 0.5rem;
 	line-height: 1rem;
 	color: black;
 	font-family: "PingFang Medium";
@@ -58,9 +58,9 @@ p{
 .main .business_information{
 	margin-top: 0.5rem;
 	padding: 0.3rem 0.5rem;
-	padding-left: 2.8rem;
+	padding-left: 3.3rem;
 	border-bottom:1px solid #F6F6F6;
-	background: url(../images/kehuxinxi.png) no-repeat 0.5rem center;
+	background: url(../images/jingxiaoshang.png) no-repeat 0.5rem center;
 	background-size:2rem;
 	background-color: white;
 	
@@ -70,8 +70,11 @@ p{
 	vertical-align: middle;
 }
 .main .business_information .top span:nth-child(1){
-	font-size: 0.7rem;
-	color: #666666;
+	/*margin: 0;
+	padding:0;*/
+	display: inline-block;
+	font-size:0.68rem;
+	color: #787878;
 	display:inline-block;
 	width: 65%;
 	vertical-align: middle;
@@ -79,7 +82,6 @@ p{
 	font-weight: 600;
 }
 .main .business_information .top span:nth-child(2){
-	font-size: 0.7rem;
 	display:inline-block;
 	width: 33%;
 	font-size: 0.5rem;
@@ -96,7 +98,7 @@ p{
 }
 .main .business_information .zhengjian span:nth-child(1){
 	padding-left: 0.8rem;
-	background:url(../images/renzheng.png) no-repeat 0 0.1rem;
+	background:url(../images/renzheng.png) no-repeat 0 0.14rem;
 	background-size:0.5rem;
 }
 .main .business_information .zhengjian span:nth-child(2){
@@ -115,8 +117,7 @@ p{
 	font-family: "PingFang Medium";
 }
 .main .labels div:nth-child(2){
-	font-size: 0.7rem;
-	color: #4C4C4C;
+	font-size: 0.72rem;
 }
 .main .labels div:nth-child(2) button{
 	outline: none;
@@ -139,8 +140,8 @@ p{
 }
 .main .datas ul li{
 	float: left;
-	color: #666666;
-	font-size:0.6rem;
+	color: #707070;
+	font-size:0.63rem;
 	padding: 0.2rem 0;
 	font-family: "PingFang Medium";
 }
@@ -190,7 +191,7 @@ footer ul li:nth-child(2) a{
 	line-height: 2rem;
 	background:none;
 	background: #FFC454;
-	font-size:0.65rem;
+	font-size:0.66rem;
 	color: white;
 }
 footer ul li:nth-child(2) a.active{
@@ -202,8 +203,8 @@ footer ul li:nth-child(3) a{
 	line-height: 2rem;
 	background:none;
 	background: #FF8100;
-	font-size:0.65rem;
-	letter-spacing: 0.1rem;
+	font-size:0.66rem;
+/*	letter-spacing: rem;*/
 	color: white;
 }
 footer ul li:nth-child(3) a.active{

@@ -1,15 +1,7 @@
-@font-face {
-	font-family:"PingFang Medium";
-	src:url(../font/PingFang Medium.ttf);
-}
-@font-face {
-	font-family:"PingFang Bold";
-	src:url(../font/PingFang Bold.ttf);
-}
 
 .main header{
 	color: black;
-	font-size: 0.73rem;
+	font-size: 0.74rem;
 }
 .main ul{
 	background: white;
@@ -38,7 +30,7 @@
 	width: 75%;
 	font-size: 0.68rem;
 	margin-top: 0.6rem;
-	color: #333333;
+	color: black;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -58,9 +50,10 @@
 	border: 1px solid #FFC170;
 	background: none;
 	color: #FFAC40;
-	padding: 0.19rem 0.5rem;
+	padding: 0.21rem 0.5rem;
 	border-radius:0.5rem;
 	outline: none;
 	font-size: 0.4rem;
 	margin-top: 0.3rem;
+	font-family: "PingFang Medium";
 }

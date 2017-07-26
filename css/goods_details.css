@@ -49,7 +49,7 @@ p{
 	margin: 0;
 	padding:0.1rem 0.5rem 0.5rem 0.5rem;
 	line-height: 1rem;
-	color: black;
+	color: #222222;
 	font-family: "PingFang Medium";
 }
 
@@ -60,10 +60,16 @@ p{
 	padding: 0.3rem 0.5rem;
 	padding-left: 3.3rem;
 	border-bottom:1px solid #F6F6F6;
-	background: url(../images/jingxiaoshang.png) no-repeat 0.5rem center;
-	background-size:2rem;
+	/*background: url(../images/jingxiaoshang.png) no-repeat 0.5rem center;
+	background-size:2.01rem;*/
 	background-color: white;
-	
+	position: relative;
+}
+.main .business_information .jxs{
+	position: absolute;
+	left:0.5rem;
+	top:0.3rem;
+	width: 2rem;
 }
 .main .business_information .top{
 	font-size: 0.7rem;
@@ -72,22 +78,29 @@ p{
 .main .business_information .top span:nth-child(1){
 	/*margin: 0;
 	padding:0;*/
-	display: inline-block;
-	font-size:0.68rem;
+	/*display: inline-block;
+	font-size:0.8rem;
 	color: #787878;
 	display:inline-block;
 	width: 65%;
 	vertical-align: middle;
-	font-family: "PingFang Medium";
-	font-weight: 600;
+	font-family:"PingFang Medium";
+	font-weight: 900;*/
+	display: inline-block;
+	width: 3.3rem;
+}
+.main .business_information .top span:nth-child(1) img{
+	vertical-align: bottom;
 }
 .main .business_information .top span:nth-child(2){
+	float: right;
+	margin-right: 0.2rem;
 	display:inline-block;
 	width: 33%;
 	font-size: 0.5rem;
 	text-align: right;
 	vertical-align: middle;
-	color: #999999;
+	color: #BBBBBB;
 	font-family: "PingFang Medium";
 }
 .main .business_information .zhengjian{
@@ -98,11 +111,11 @@ p{
 }
 .main .business_information .zhengjian span:nth-child(1){
 	padding-left: 0.8rem;
-	background:url(../images/renzheng.png) no-repeat 0 0.14rem;
+	background:url(../images/renzheng.png) no-repeat 0 0.149rem;
 	background-size:0.5rem;
 }
 .main .business_information .zhengjian span:nth-child(2){
-	background: url(../images/renzhegnn.png) no-repeat 0.5rem 0.11rem;
+	background: url(../images/renzhegnn.png) no-repeat 0.5rem 0.15rem;
 	background-size:0.7rem;
 	padding-left: 1.5rem;
 	
@@ -136,7 +149,7 @@ p{
 	margin-top: 0.5rem;
 	background: white;
 	padding: 0.3rem 0.5rem;
-	font-family: "SC-Blod";
+	font-family: "PingFang Medium";
 }
 .main .datas ul li{
 	float: left;

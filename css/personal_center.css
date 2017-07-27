@@ -29,7 +29,7 @@ body{
 }
 .main .banner span{
 	position: absolute;
-	top:2.5rem;
+	top:2rem;
 	left: 1rem;
 	font-size: 0.65rem;	
 	color: #FFEAD6;
@@ -37,14 +37,14 @@ body{
 }
 .main .banner p:nth-child(4){
 	position: absolute;
-	right: 2.2rem;
+	right: 1.5rem;
 	width: 2.2rem;
 	top: 0.2rem;
 }
 .main .banner p:nth-child(5){
 	position: absolute;
 	top: 19%;
-	right: 1rem;
+	right: 0.6rem;
 	width: 3%;
 }
 .main  ul{
@@ -84,13 +84,13 @@ body{
 	padding:0.55rem 0;
 	font-size: 0.73rem;
 	letter-spacing: 0.01rem;
-	color: black;
+	color: #333333;
 	font-family: "PingFang Medium";
 	
 	background: url(../images/wodejiantou.png) no-repeat 95% center;
 	background-size:0.45rem;
 }
-.main ul li:nth-child(1) a,.main ul li:nth-child(3) a,.main ul li:nth-child(4) a{
+.main ul li a{
 	border-bottom:1px solid #F4F4F4;
 }
 

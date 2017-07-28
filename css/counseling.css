@@ -17,28 +17,29 @@ nav li:nth-child(2) h4{
 }
 
 .main .consult{
-	margin: 0.5rem;
+	margin: 0.5rem 0;
+	padding: 0.3rem 0;
 	background: white;
-	padding: 0.3rem;
 }
 .main .consult h3{
-	margin: 0;
-	padding: 0;
+	margin: 0 0.5rem;
+	padding: 0 0.3rem;
 	font-size: 0.75rem;
 	color: black;
-	padding-left: 0.2rem;
+	padding-left: 0;
 	font-family: "PingFang Bold";
 }
 
 .main .consult p{
 	font-size: 0.62rem;
 	color: black;
-	margin: 0;
-	padding:0;
+	margin: 0 0.5rem;
+	padding: 0 0.3rem;
 	margin: 0.25rem;
 	font-family: "PingFang Medium";
 }
-.main .consult p:nth-child(1){
+.main .consult p:nth-child(2){
+	padding-left:0.6rem;
 	font-size: 0.5rem;
 	color: #595959;
 }
@@ -85,17 +86,17 @@ nav li:nth-child(2) h4{
 	border: none;
 	outline: none;
 	background:white;
-	width:15rem;
+	width: 100%;
 	text-align: start;
-	padding:0.5rem 0 0.1rem 0;
-	padding-left: 0.5rem;
+	padding:0.5rem 0 0.1rem 0.6rem;
+	margin: 0;
 	border-top:1px solid #F4F4F4;
-	margin-left: -0.5rem;
 	background: url(../images/yougouzi.png) no-repeat 95% 0.4rem;
-	background-size:3% auto;
+	background-size:2.8% auto;
 	font-family: "PingFang Bold";
 	color: #666666;
 	font-size: 0.55rem;
+/*	border: 1px solid red;*/
 }
 	
 .main .business_card p:nth-child(5){

@@ -358,7 +358,7 @@ footer ul li:nth-child(3) a.active{
 	filter: alpha(opacity=0);
 }
 .zixun ul li:nth-child(3) span,.zixun ul li:nth-child(4) span{
-	border: 1px solid red;
+	
 	float: right;
 	display: inline-block;
 	width: 2rem;

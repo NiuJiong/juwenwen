@@ -109,7 +109,7 @@ footer{
 	z-index: 5555;
 	background: white;
 	
-	height:2rem;
+	height:2.35rem;
 	border-top:1px solid #E5E5E5;
 /*	padding-bottom: 0.1rem;*/
 }
@@ -135,36 +135,36 @@ footer ul li a{
 	/*padding: 1.1rem 0 0.2rem 0;*/
 	font-family: "PingFang Medium";
 	/*border: 1px solid red;*/
-	line-height:3.2rem;
+	line-height:3.8rem;
 }
 footer ul li:nth-child(1) a{
-	background:url(../images/shouye.png) no-repeat center 0.22rem;
-	background-size:19%;
+	background:url(../images/shouye.png) no-repeat center 0.28rem;
+	background-size:19.5%;
 }
 footer ul li:nth-child(1) a.active{
-	background: url(../images/shouyehuang.png) no-repeat center 0.22rem;
-	background-size:19%;
+	background: url(../images/shouyehuang.png) no-repeat center 0.28rem;
+	background-size:19.5%;
 	color: #FFBE6A;
 }
 footer ul li:nth-child(2) a{
-	background: url(../images/shoucang.png) no-repeat center 0.22rem;
-	background-size:18%;
+	background: url(../images/shoucang.png) no-repeat center 0.28rem;
+	background-size:18.5%;
 
 }
 footer ul li:nth-child(2) a.active{
-	background: url(../images/shoucanghuang.png) no-repeat center 0.22rem;
-	background-size:18%;
+	background: url(../images/shoucanghuang.png) no-repeat center 0.28rem;
+	background-size:18.5%;
 	color: #FFBE6A;
 	
 }
 footer ul li:nth-child(3) a{
-	background: url(../images/wode.png) no-repeat center 0.22rem;
-	background-size:16%;
+	background: url(../images/wode.png) no-repeat center 0.28rem;
+	background-size:16.5%;
 	font-size: 0.5rem;
 }
 footer ul li:nth-child(3) a.active{
-	background: url(../images/wodehuang.png) no-repeat center 0.22rem;
-	background-size:16%;
+	background: url(../images/wodehuang.png) no-repeat center 0.28rem;
+	background-size:16.5%;
 	color: #FFBE6A;
 	
 }

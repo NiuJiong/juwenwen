@@ -1,4 +1,4 @@
-(function(glabal,undefined){
+(function(glable,undefined){
 	
 	var tools = {
 		
@@ -10,6 +10,6 @@
 		
 	}
 	
-	glabal.tools = tools;
+	glable.tools = tools;
 	
 })(window,undefined);

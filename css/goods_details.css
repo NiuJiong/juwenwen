@@ -204,12 +204,12 @@ footer ul li:nth-child(1) a{
 	background-size:23.5%;
 	font-size: 0.55rem;
 	color: #999999;
-	line-height: 3.2rem;
+	line-height: 3.5rem;
 }
 footer ul li:nth-child(2) a{
 	margin: 0;
 	padding: 0;
-	line-height:2rem;
+	line-height:2.35rem;
 	background: #FFC454;
 	font-size:0.66rem;
 	color: white;
@@ -219,7 +219,7 @@ footer ul li:nth-child(2) a.active{
 }
 footer ul li:nth-child(3) a{
 	padding: 0;
-	line-height: 2rem;
+	line-height: 2.35rem;
 	background: #FF8100;
 	font-size:0.66rem;
 /*	letter-spacing: rem;*/

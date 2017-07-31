@@ -22,7 +22,7 @@ p{
 	position: relative;
 	background: white;
 }
-.main .banner span:nth-child(2){
+.main .banner span:nth-child(2) a{
 	position: absolute;
 	width: 1.4rem;
 	height: 1.4rem;
